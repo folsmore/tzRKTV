@@ -1,0 +1,7 @@
+[29-Dec-2020 10:22:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'u149072'@'localhost' (using password: YES) in /home/u149072/public_html/tzRKT/index.php on line 6
+[29-Dec-2020 10:22:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'u149072'@'localhost' (using password: YES) in /home/u149072/public_html/tzRKT/db.php:6
+Stack trace:
+#0 /home/u149072/public_html/tzRKT/db.php(6): PDO->__construct('mysql:=localhos...', 'u149072', 'homka1213')
+#1 /home/u149072/public_html/tzRKT/index.php(8): require('/home/u149072/p...')
+#2 {main}
+  thrown in /home/u149072/public_html/tzRKT/db.php on line 6
